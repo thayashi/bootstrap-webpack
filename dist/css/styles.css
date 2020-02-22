@@ -1,0 +1,23 @@
+.testa {
+  color: #333; }
+  .testa > .testb {
+    color: #f00; }
+  .testa .testc {
+    color: #fff; }
+
+.scssbg {
+  background: url(../img/sample.png) no-repeat center center; }
+
+body {
+  background: #fff;
+  background: url(../img/sample.png) no-repeat center center;
+}
+
+.test {
+  color: #333;
+}
+
+/* .bg {
+  background: url(../img/sample.png) no-repeat center center;
+} */
+

@@ -1,0 +1,12 @@
+body {
+  background: #fff;
+  background: url(../img/sample.png) no-repeat center center;
+}
+
+.test {
+  color: #333;
+}
+
+/* .bg {
+  background: url(../img/sample.png) no-repeat center center;
+} */

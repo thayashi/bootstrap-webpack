@@ -1,0 +1,13 @@
+.testa {
+  color: #333;
+  > .testb {
+    color: #f00;
+  }
+  .testc {
+    color: #fff;
+  }
+}
+
+.scssbg {
+  background: url(../img/sample.png) no-repeat center center;
+}

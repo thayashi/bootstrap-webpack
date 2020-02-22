@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "contributors": [
+    "Toshi Hayashi"
+  ],
+  "scripts": {
+    "build": "rm -rf ./dist/ && webpack --colors --progress --bail",
+    "dev": "rm -rf ./dist/ && webpack-dev-server --hot --inline --colors --progress --open"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "1.16.1"
+  }
+}
